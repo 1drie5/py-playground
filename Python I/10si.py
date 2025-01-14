@@ -4,8 +4,8 @@ Write a program to calculate simple interest with the following conditions:
 -	If the principal amount is 2,00,000 - 10,00,000 the interest rate is 12%.
 -	If the principal amount is greater than 10,00,000 the interest rate is 15%.
 '''
-p = int(input(f"Enter principal amount (in Rs.): "))
-t = int(input("Enter duration in years (in years): "))
+p = float(input(f"Enter principal amount (in Rs.): "))
+t = float(input("Enter duration in years (in years): "))
 
 if p < 200000:
     si = (p * 10 * t) / 100
