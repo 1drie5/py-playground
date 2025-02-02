@@ -8,10 +8,9 @@ original_b = b
 
 # Division-Based Euclidean Algorithm
 while b != 0:
-    while b != 0:
-        temp = b
-        b = a % b
-        a = temp
+    temp = b
+    b = a % b
+    a = temp
 gcd = a
 
 print(f"GCD of {original_a} and {original_b} is {gcd}")
