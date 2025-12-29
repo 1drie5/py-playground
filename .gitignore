@@ -3,6 +3,12 @@
 venv/
 .env/
 
+# Environment variable files
+.env
+
+# Chroma database files
+chroma_db/
+
 # Python cache files
 __pycache__/
 
